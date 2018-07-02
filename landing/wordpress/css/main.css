@@ -1,0 +1,17 @@
+
+.carousel .item img {
+    max-height: 400px;
+    min-width: 100%;
+    }
+
+.opaque-navbar {
+    background-color: rgba(0, 0, 0, 0.1 );
+/* Transparent = rgba(0,0,0,0) / Translucent = (0,0,0,0.5)  */
+    height: 60px;
+    border-bottom: 0px;
+    transition: background-color .5s ease 0s;
+}
+
+.headimage {
+    max-width: 30%;
+}
